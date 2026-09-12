@@ -64,5 +64,25 @@ Key Specifications
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## 📂 Repository Structure
+
+```
+telecom-churn-analytics-powerbi/
+│
+├── dataset/
+│   └── source.md                  # Link to the dataset (hosted on Google Drive, too large for GitHub)
+│
+├── powerbi/
+│   └── Telecomm_proj.pdf          # Power BI report exported as PDF
+│
+├── scripts/                       # SQL scripts (ETL)
+│   ├── bronze/                    # Raw data loading
+│   ├── silver/                    # Cleaning & transformation
+│   ├── gold/                      # Gold layer views (star-schema style)
+│   └── db_creation.sql            # Database/schema setup
+│
+└── README.md
+```
+
 
 
